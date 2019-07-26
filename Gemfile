@@ -1,4 +1,5 @@
-source 'http://rubygems.org'
+# source 'http://rubygems.org'
+source 'https://gems.ruby-china.com'
 
 gem 'rails', '5.2.2.1'
 gem 'redcarpet', '3.4.0'
