@@ -130,7 +130,7 @@ HTML
 
       def doc_code(doc_type, name)
         <<-HTML
-<div class="google_doc" style="display:none" url="https://github.com/dengqinghua/roses/raw/master/assets/doc/#{name}.#{doc_type}">
+<div class="google_doc" style="display:none" url="https://github.com/hunzino1/roses/raw/master/assets/doc/#{name}.#{doc_type}">
 </div>
 HTML
       end
