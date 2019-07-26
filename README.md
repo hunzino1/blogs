@@ -1,4 +1,4 @@
-Dengqinghua's Blog
+Sunhaojie's Blog
 ===================
 
 Hello, 这里是孙豪杰的[技术blog](https://hunzino1.github.io/blogs/)源码. 在此特别感谢邓擎铧的帮助,[邓擎铧blog](http://blog.dengqinghua.net/).

@@ -17,5 +17,9 @@ Dir["docs/*.html"].each do |path|
   puts File.expand_path(File.dirname(__FILE__)) + "/" + path
 end
 
+# rake guides:generate（rake --task）
+# 作用是将md生成为html，但是生成目录固定是output目录，不能指定目录
+# 矛盾的是github指定目录也是固定的，docs目录
+# 所以，我在此加了一个重命名操作
 puts "mv output docs"
 `mv output docs`
