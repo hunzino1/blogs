@@ -2,10 +2,6 @@
   name: 推荐
   documents:
     -
-      name: 基于内存数据库的角标系统设计
-      url: badge_system.html
-      description: 角标是公司最复杂的系统之一, 每次大促活动的时候, 角标承担着引流的重要责任, 是GMV的保证之一, 角标系统经过几年的演化, 已经变得非常复杂, 我们在近期对角标系统进行了整理和重构, 将角标系统变成了一个基于内存数据库和规则的数据计算系统.
-    -
       name: 业务流引擎系统
       url: witness_flow.html
       description: 随着系统的日益演进, 系统的业务逻辑非常复杂, 尤其是在产品需求频繁变动的情况下, 研发需要不断地进行改动代码, 最终逻辑无人知晓. 为了让核心业务逻辑更清晰, 更快速地响应业务的变更, 我们研发了业务流引擎系统. 通过 代码 + 流程图配置 的方式, 将业务的复杂度变为引擎实现的技术难度.
@@ -20,10 +16,6 @@
       name: Ruby数据模型
       url: ruby_model.html
       description: Ruby的数据模型, 包括方法查找, 变(常)量查找, 作用域.
-    -
-      name: Arel源码分析
-      url: arel.html?lang=en
-      description: 基于AST和Vistor模式的arel源码分析, 本人第一遍英文版本的技术文档.
     -
       name: 基于Sidekiq的异步任务管理引擎
       url: sidekiq_task_event.html
@@ -40,30 +32,10 @@
   name: Java
   documents:
     -
-      name: 数据结构
-      url: data_structures.html
-      description: 基于Java语言的数据结构整理.
-    -
-      name: JVM剖析
-      url: learn_jvm.html
-      description: JVM的一些知识点和总结.
-    -
-      name: Concurrency
-      url: concurrency.html
-      description: 并发的基本概念和ThreadPool源码分析.
-    -
       name: Java知识树
       url: java_knowledge_tree.html
       description: 开发Java需要了解的20%内容.
       work_in_progress: true
-    -
-      name: 基于内存数据库的角标系统设计
-      url: badge_system.html
-      description: 角标是公司最复杂的系统之一, 每次大促活动的时候, 角标承担着引流的重要责任, 是GMV的保证之一, 角标系统经过几年的演化, 已经变得非常复杂, 我们在近期对角标系统进行了整理和重构, 将角标系统变成了一个基于内存数据库和规则的数据计算系统.
-    -
-      name: 命令行下的Maven
-      url: maven_under_command_line.html
-      description: 命令行下的maven, 可以大大提高开发效率, 减少对IDE的依赖.
 -
   name: MySQL
   documents:
@@ -72,49 +44,11 @@
       url: mysql_knowledge_tree.html
       description: MySQL初级知识树, 包括表结构设计, 索引建立, MySQL事务和锁.
 -
-  name: Go
-  documents:
-    -
-      name: GoInstallBinaries i/o timeout问题
-      url: go_get_timeout_solution.html
-      description: 解决golang.org无法访问问题.
-    -
-      name: Go知识树
-      url: go_knowledge_tree.html
-      description: Go的学习计划和相关知识树.
--
-  name: 音乐
-  documents:
-    -
-      name: 音乐学习体系
-      url: music_index.html
-      description: 一些音乐系统学习资料汇总和索引
-    -
-      name: City Of Star
-      url: lalaland-city_of_stars.html
-      description: 很喜欢 [爱乐之城] 这部电影, City of Stars为其中的原声音乐之一, 刚好在公众号看到了该曲子的吉他版本和Ukulele版本, 便参考和分析了一下歌曲的和弦走向, 和弦编配等.
-    -
-      name: あの日の帰り道
-      url: あの日の帰り道.html
-      description: 伍伍慧的一首指弹曲.
-    -
-      name: 雨の日はワルツを踊って
-      url: rain_wwh.html
-      description: 伍伍慧的一首指弹曲.
-    -
-      name: Moon River
-      url: moon_river.html
-      description: 伍伍慧的一首指弹曲.
-    -
-      name: Es Ware Schon Gewesen
-      url: it_could_have_been.html
-      description: Ulli Bögershausen的一首指弹曲.
--
   name: 杂记
   documents:
     -
       name: markdown格式实例
-      url: example_markdown.html
+      url: 000_example_markdown.html
       description: Rails Guides风格的markdown模板.
     -
       name: 注释规范
