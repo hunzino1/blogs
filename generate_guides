@@ -2,10 +2,10 @@
 #
 puts Time.now.to_s
 
-if ARGV[0] == "r"
-  puts "rm -rf docs/**"
-  `rm -rf docs/**`
-end
+puts "============"
+
+puts "rm -rf docs/"
+`rm -rf docs/`
 
 puts "bundle exec rake guides:generate"
 `bundle exec rake guides:generate`
@@ -16,6 +16,8 @@ puts "============"
 Dir["docs/*.html"].each do |path|
   puts File.expand_path(File.dirname(__FILE__)) + "/" + path
 end
+
+puts "============"
 
 # rake guides:generate（rake --task）
 # 作用是将md生成为html，但是生成目录固定是output目录，不能指定目录
