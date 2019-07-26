@@ -1,12 +1,11 @@
 Dengqinghua's Blog
 ===================
 
-Hello, 这里是是邓擎铧的[技术blog](http://blog.dengqinghua.net/)源码.
+Hello, 这里是孙豪杰的[技术blog](https://hunzino1.github.io/blogs/)源码. 在此特别感谢邓擎铧的帮助,[邓擎铧blog](http://blog.dengqinghua.net/).
 
 该源码基于[Rails Guides](https://github.com/rails/rails/tree/master/guides), 主要记录了自己所学时的笔记, 总结和经验, 包括下面这些内容:
 
 * 知识树和技术栈: 如何从0开始理解和学习一门语言.
-* 吉他和Ukelele学习.
 * 一些随想笔记.
 
 --------------------------------------------------------------------------------
@@ -31,9 +30,10 @@ bundle install
 
 ```
 ./generate_guides
+
 ```
 
-即可在`output`文件夹中生成对应的html代码, 其中output/index.html为入口文件.
+即可在`docs`文件夹中生成对应的html代码, 其中docs/index.html为入口文件.
 
 源码内容简介
 --------------
@@ -43,24 +43,12 @@ bundle install
 ### 技术栈
 希望通过总结技术栈, 可以了解计算机语言, 数据结构和算法的细节和本质.
 
-### 吉他
-本人是一名吉他爱好者(尤其是指弹) , 喜欢 Chet Atkins, George Benson, Tommy Emmanuel.
-
-这里有一个关于音阶记忆练习的[小程序](https://github.com/dengqinghua/scales_practice)
-
-### Ukulele
-Hey! Ukelele!
-
 ### 随想笔记
 这里什么都有
 
 文章列表
 --------
 ### 推荐
-#### [基于内存数据库的角标系统设计](http://blog.dengqinghua.net/badge_system.html)
-
-角标是公司最复杂的系统之一, 每次大促活动的时候, 角标承担着引流的重要责任, 是GMV的保证之一, 角标系统经过几年的演化, 已经变得非常复杂, 我们在近期对角标系统进行了整理和重构, 将角标系统变成了一个基于内存数据库和规则的数据计算系统.
-
 #### [业务流引擎系统](http://blog.dengqinghua.net/witness_flow.html)
 
 随着系统的日益演进, 系统的业务逻辑非常复杂, 尤其是在产品需求频繁变动的情况下, 研发需要不断地进行改动代码, 最终逻辑无人知晓. 为了让核心业务逻辑更清晰, 更快速地响应业务的变更, 我们研发了业务流引擎系统. 通过 代码 + 流程图配置 的方式, 将业务的复杂度变为引擎实现的技术难度.
@@ -109,31 +97,8 @@ Java Concurrency的基本概念, ThreadPool源码分析
 
 命令行下的maven, 可以大大提高开发效率, 减少对IDE的依赖.
 
-#### [基于内存数据库的角标系统设计](http://blog.dengqinghua.net/badge_system.html)
-
-角标是公司最复杂的系统之一, 每次大促活动的时候, 角标承担着引流的重要责任, 是GMV的保证之一, 角标系统经过几年的演化, 已经变得非常复杂, 我们在近期对角标系统进行了整理和重构, 将角标系统变成了一个基于内存数据库和规则的数据计算系统.
-
 ### MySQL
 #### [MySQL知识树](http://blog.dengqinghua.net/mysql_knowledge_tree.html)
-
-### Go
-#### [GoInstallBinaries i/o timeout问题](http://blog.dengqinghua.net/go_get_timeout_solution.html)
-
-#### [Go知识树](http://blog.dengqinghua.net/go_knowledge_tree.html)
-
-Go的学习计划和相关知识树.
-
-### 音乐
-#### [音乐体系学习](http://blog.dengqinghua.net/music_index.html)
-一些音乐系统学习资料汇总和索引
-
-#### [City Of Star](http://blog.dengqinghua.net/lalaland-city_of_stars.html)
-很喜欢 [爱乐之城] 这部电影, City of Stars为其中的原声音乐之一, 刚好在公众号看到了该曲子的吉他版本和Ukulele版本, 便参考和分析了一下歌曲的和弦走向, 和弦编配等.
-
-#### [あの日の帰り道](http://blog.dengqinghua.net/あの日の帰り道.html)
-#### [雨の日はワルツを踊って](http://blog.dengqinghua.net/rain_wwh.html)
-
-#### [Es Ware Schon Gewesen](http://blog.dengqinghua.net/it_could_have_been.html)
 
 ### 杂记
 #### [markdown格式实例](http://blog.dengqinghua.net/example_markdown.html)
@@ -162,7 +127,7 @@ Rails Guides风格的markdown模板.
 
 Issues
 ------
-如果您觉得有文章对您有启发, 或者有任何问题, 可以通过邮箱联系我: dengqinghua.42@gmail.com.
+如果您觉得有文章对您有启发, 或者有任何问题, 可以通过邮箱联系我: coding_sun@163.com.
 
 License
 -------
