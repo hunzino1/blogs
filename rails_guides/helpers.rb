@@ -18,10 +18,6 @@ module RailsGuides
       @documents_by_section ||= YAML.load_file(File.expand_path("../source/#{@language ? @language + '/' : ''}documents.yaml", __dir__))
     end
 
-    def documents_by_select(file_name)
-      @documents_by_section ||= YAML.load_file(File.expand_path("../source/#{@language ? @language + '/' : ''}#{file_name}.yaml", __dir__))
-    end
-
     def documents_flat
       documents_by_section.flat_map { |section| section["documents"] }
     end
@@ -35,8 +31,6 @@ module RailsGuides
         documents_by_section
       elsif position == "L"
         documents_by_section.to(3)
-      elsif position == "spring"
-        documents_by_select(position)
       else
         documents_by_section.from(4)
       end

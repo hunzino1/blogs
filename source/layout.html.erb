@@ -46,9 +46,6 @@
           <a href="index.html" id="guidesMenu" class="guides-index-item nav-item">
             Index <span id="guidesArrow">▸</span>
           </a>
-          <a href="spring.html" id="guidesMenu" class="guides-spring-item nav-item">
-            Spring <span id="guidesArrow">▸</span>
-          </a>
 
           <div id="guides" class="clearfix" style="display: none;">
             <hr />
@@ -68,18 +65,6 @@
           <select class="guides-index-item nav-item">
             <option value="index.html">Index</option>
             <% docs_for_menu.each do |section| %>
-              <optgroup label="<%= section['name'] %>">
-                <% finished_documents(section['documents']).each do |document| %>
-                  <option value="<%= document['url'] %>"><%= document['name'] %></option>
-                <% end %>
-              </optgroup>
-            <% end %>
-          </select>
-        </li>
-        <li class="guides-index guides-index-small">
-          <select class="guides-spring-item nav-item">
-            <option value="spring.html">Index</option>
-            <% docs_for_menu('spring').each do |section| %>
               <optgroup label="<%= section['name'] %>">
                 <% finished_documents(section['documents']).each do |document| %>
                   <option value="<%= document['url'] %>"><%= document['name'] %></option>
