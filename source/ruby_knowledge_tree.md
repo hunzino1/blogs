@@ -176,7 +176,7 @@ INFO: 请尽量阅读原版.
 代码规范
 --------
 * [代码规范基础](https://github.com/JuanitoFatas/ruby-style-guide/blob/master/README-zhCN.md)
-* [代码注释规范](/comments.html)
+* [代码注释规范](blogs/comments.html)
 
 Rails框架
 --------
