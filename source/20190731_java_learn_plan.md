@@ -53,7 +53,6 @@ Spring学习
 执行顺序
 -------
 
-```
 TREE:
 {
         text: { name: "一年学习计划", title: "做的真的不多" },
@@ -71,29 +70,28 @@ TREE:
             },
             {
                 text: { name: "2 java高并发", title: "也是项目实际需要" }
-            }
+            },
             {
-                text: { name: "java基础", title: "core java，并不是专门时间要做的，而是一直要做，就像spring进阶一样，可以看看core java 和 LeetCode" }
-            }
+                text: { name: "java基础", title: "core java，并不是专门时间要做的，而是一直要做，就像spring进阶一样，可以看看core java 和 LeetCode" },
+            },
             {
-                text: { name: "JVM + 源码", title: "同上,只有java用的特别熟了，才有必要去学这个，所以这个应该是下半年可以学的，所以上半年要熟练java" }
-            }
+                text: { name: "JVM + 源码", title: "同上,只有java用的特别熟了，才有必要去学这个，所以这个应该是下半年可以学的，所以上半年要熟练java" },
+            },
             {
-                text: { name: "3 设计模式", title: "放在前置位，是要养成使用设计模式的习惯，只看不用等于没看;" }
-            }
+                text: { name: "3 设计模式", title: "放在前置位，是要养成使用设计模式的习惯，只看不用等于没看;" },
+            },
             {
-                text: { name: "4 重构", title: "这个也应该和技术无关，而是素养;" }
-            }
+                text: { name: "4 重构", title: "这个也应该和技术无关，而是素养;" },
+            },
             {
-                text: { name: "5 maven", title: "实际需要，短时间掌握，一周？" }
-            }
+                text: { name: "5 maven", title: "实际需要，短时间掌握，一周？" },
+            },
             {
-                text: { name: "6 mybatis", title: "实际需要，2周，因为有使用经验，也只是暂时要求基础即可" }
-            }
+                text: { name: "6 mybatis", title: "实际需要，2周，因为有使用经验，也只是暂时要求基础即可" },
+            },
             {
-                text: { name: "7 高性能mysql"}
+                text: { name: "7 高性能mysql"},
             }
        ]
 }
-```
 
